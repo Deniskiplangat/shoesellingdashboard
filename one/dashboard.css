@@ -1,0 +1,480 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+/* //this will be the css related to the navigation bar */
+.mainHeader{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.9);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer{
+   width: 30%;
+   height: 100%;
+   /* background-color: green; */
+
+   display: flex;
+   align-items: center;
+}
+.logoContainer img{
+    width: 230px;
+    height: 40px;
+    margin-left: 5%;
+}
+.navContainer{
+   width: 70%;
+   height: 100%;
+   /* background-color: yellow; */
+
+   display: flex;
+}
+.navContainer .search{
+   width: 40%;
+   height: 100%;
+   /* background-color: brown; */
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/* .navContainer .search .searchbar{
+    position: relative;
+    width: 80%;
+    height: 60%;
+    background-color: black;
+    border-radius: 5px;
+ }
+.navContainer .search .searchbar img{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 50%; 
+    left: 0;
+    transform: translate(2%,-50%);
+ } */
+ form{
+    /* background-color: rgb(61, 65, 61); */
+    height: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .inputwrapper{
+    border: 2px solid black;
+    background-color: rgb(61, 65, 61);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+ }
+ .inputwrapper img{
+   
+    height: 25px;
+    width: 25px;
+ }
+ ::placeholder {
+    font-style: normal;
+    font-size: small;
+    
+    color: mintcream;
+    
+    margin-left: 2em;
+    padding: 5px;
+  }
+ form .inputwrapper input{
+
+    background-color: rgb(61, 65, 61);
+   border:2px solid rgb(61, 65, 61);
+   outline: none;
+   height: 90%;
+   width: 100%;
+   border-radius: 5px;
+   
+ }
+.navContainer .addfields{
+    width: 60%;
+   height: 100%;
+   /* background-color: blue; */
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.navContainer .addfields .addProduct{
+    width: 10%;
+    border: 1px solid rgb(244, 244, 250);
+    border-radius: 20%;
+    height: 70%;
+    background-color: rgb(16, 85, 163);
+}
+.navContainer .addfields .daynight{
+    width: 20%;
+    height: 70%;
+    background-color: rgb(100, 100, 23);
+    
+    display: flex;
+}
+.navContainer .addfields .daynight .day{
+    width: 50%;
+   height: 100%;
+}
+.navContainer .addfields .daynight .night{
+   width: 50%;
+   height: 100%;
+}
+.navContainer .addfields .picsomething{
+    width: 10%;
+    height: 70%;
+    background-color: rgb(81, 85, 77);
+    border: 1px solid rgb(244, 244, 250);
+    border-radius: 20%;
+}
+.navContainer .addfields .notification{
+    width: 10%;
+    height: 70%;
+    background-color: rgb(81, 85, 77);
+    border: 1px solid rgb(244, 244, 250);
+    border-radius: 20%;
+}
+.navContainer .addfields .addsettings{
+    width: 10%;
+    height: 70%;
+    background-color: rgb(81, 85, 77);
+    border: 1px solid rgb(244, 244, 250);
+    border-radius: 20%;
+}
+.navContainer .addfields .personinfo{
+    width: 10%;
+    height: 70%;
+    background-color: rgb(197, 28, 36);
+}
+.fontsfinal{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    cursor: pointer;
+}
+/* the beggining of the css only concerned with the main body */
+.mainBody{
+
+    height: 90%;
+    width: 100%;
+    display: flex;
+    
+}
+.navbar{
+   width: 20%;
+   height: 100%;
+   
+}
+.navbar .navbarOptions{
+    background-color: rgba(0, 0, 0, 0.9);
+   height: 70%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.navbar .navbarOptions .options{
+    
+    height: 100%;
+    width: 75%;
+
+    
+ }
+.navbar .logout{
+    background-color: rgba(0, 0, 0, 0.9);
+   height: 30%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.navbar .logout .logOutOptions{
+    /* border-top: 3px solid white; */
+    position: relative;
+    height: 80%;
+    width: 75%;
+    margin-top: 5%;
+    
+ }
+ .navbar .logout .logOutOptions::after{
+    
+    content: "";
+    background: rgb(0, 0, 0,0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 90%;
+    
+ }
+.mainContent{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(33, 33, 46);
+}
+.mainContent .maincomponentwrapper{
+    width: 97%;
+    height: 90%;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.wrappers{
+   width: 100%;
+   height: 10%;
+   
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+   align-items: center;
+   border-bottom: 1px solid white;
+   
+}
+.tablewrapper{
+    width: 100%;
+    height: 90%;
+    /* background-color: red; */
+}
+
+.mainContent .maincomponentwrapper .wrappers .maincontainerone{
+   width: 55%;
+   height: 80%;
+   display: flex;
+   align-items: center;
+   
+   
+   
+}
+.mainContent .maincomponentwrapper .wrappers .maincontainerone .title{
+    
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 75%;
+    font-size: 2em;
+    color: white;
+
+    
+ }
+ .mainContent .maincomponentwrapper .wrappers .maincontainerone .titleoptions{
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(209, 128, 23); */
+    width: 75%;
+    height: 75%;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+    
+ }
+ .mainContent .maincomponentwrapper .wrappers .maincontainerone .titleoptions .moreoptions{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid rgba(70, 66, 66, 0.4); */
+    border-radius: 10px;
+    
+    
+ }
+.mainContent .maincomponentwrapper .wrappers .maincontainertwo{
+   width: 25%;
+   height: 80%;
+   
+
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+   
+}
+
+.mainContent .maincomponentwrapper .wrappers .maincontainertwo .newitem{
+    
+    width: 45%;
+    height: 80%;
+    background-color: rgb(17, 32, 167);
+    
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .mainContent .maincomponentwrapper .wrappers .maincontainertwo .sort{
+    width: 45%;
+    height: 80%;
+    background-color: rgb(71, 62, 62);
+    border: 2px solid black;
+    border-radius: 10px;
+    
+ }
+ .div{
+    display: block;
+    margin-top: 10px;
+    margin-left: 2px;
+    width: 100%;
+ }
+.plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .plus img{
+    width: 20px;
+    height: 20px;
+ }
+ .sort{
+     display: flex;
+ }
+.published{
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.logopublished{
+    width: 20%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logopublished img{
+    width:20px;
+    height: 20px;
+}
+.published{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.published:hover{
+    background-color: rgba(226, 211, 211,0.5);
+}
+
+.publishedname{
+    width: 80%;
+    height: 100%;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.publishedname p{
+
+}
+
+
+
+/* general css */
+.container{
+    width: 90%;
+    height: 10%;
+    
+    /* border: 2px solid black; */
+    display: flex;
+    margin-top: 3%;
+    border-radius: 5px;
+    
+    
+}
+.container:hover{
+    background-color: rgb(19, 76, 141);
+    cursor: pointer;
+}
+.listpic{
+    width: 20%;
+    width: 20%;
+    margin-left: 10px;
+}
+p{
+    width: 80%;
+    color: white;
+    text-justify: center;
+    font-size: 1em;
+}
+.textalign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.containerLogout{
+    width: 90%;
+    height: 28%;
+    
+    
+    display: flex;
+    margin-top: 3%;
+    border-radius: 5px;
+    
+}
+.containerLogout:hover{
+    background-color: rgb(25, 94, 158);
+    cursor: pointer;
+}
+
+/* //here we will start styling the table */
+table{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    color: white;
+}
+table tbody{
+    border-collapse: collapse;
+}
+.tableimage{
+    width: 70%;
+    
+}
+.imagestyle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+.texttable{
+    width: 100%;
+}
+.nameproduct{
+    width: 20%;
+}
+thead{
+    height: 50px;
+    
+}
+thead tr th{
+    width: fit-content;
+}
+tbody tr td{
+    text-align: center;
+}
+.tablescroll{
+    overflow: auto;
+    height: 100%;
+}

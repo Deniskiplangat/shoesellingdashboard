@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <!-- this will be the main header -->
+    <div class="mainHeader">
+        <div class="logoContainer">
+            <img src="/cr_logo.png" class="logo">
+        </div>
+        <div class="navContainer">
+            <div class="search">
+                <!-- <div class="searchbar">
+                    <img src="/icons/star-svgrepo-com.svg" alt="" srcset="">
+                </div> -->
+                <form id="form" role="search">
+                    <div class="inputwrapper">
+                        <img src="/icons/icons8-search.svg" alt="" srcset="">
+                        <input type="search" id="query" name="q"
+                     placeholder="Search by products, sku,order id,phonenumber"
+                     aria-label="Search through site content">
+                     
+                    </div>
+                    
+                    
+                  </form>
+            </div>
+            <div class="addfields">
+                <div class="addProduct">
+                    <img src="/icons/plus-large-svgrepo-com.svg" class="fontsfinal" alt="" srcset="">
+                </div>
+                <div class="daynight">
+                    <div class="day">
+                        <img src="/icons/sun-svgrepo-com (1).svg" class="fontsfinal" alt="" srcset="">
+                    </div>
+                    <div class="night">
+                        <img src="/icons/moon-svgrepo-com.svg" class="fontsfinal" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="picsomething">
+                    <img src="/icons/order-svgrepo-com (2).svg" class="fontsfinal" alt="" srcset="">
+                </div>
+                <div class="notification">
+                    <img src="/icons/bell-alt-svgrepo-com.svg" class="fontsfinal" alt="" srcset="">
+                </div>
+                <div class="addsettings">
+                    <img src="/icons/icons8-search.svg" class="fontsfinal" alt="" srcset="">
+                </div>
+                <div class="personinfo">
+                    <img src="/icons/icons8-search.svg" class="fontsfinal" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- the main body of our dashboard -->
+    <div class="mainBody">
+        <div class="navbar">
+           <div class="navbarOptions">
+               <div class="options">
+                   <div class="container">
+                    <img src="/icons/bookmark.svg" class="listpic">
+                     <div class="textalign"><p>Dashboard</p></div>
+                   </div>
+                   <div class="container">
+                    <img src="/icons/bulb.svg" class="listpic">
+                     <div class="textalign"><p>Order</p></div>
+                   </div>
+                   <div class="container">
+                    <img src="/icons/cross-hair-svgrepo-com.svg" class="listpic">
+                     <div class="textalign"><p>Customer</p></div>
+                   </div>
+                   <div class="container">
+                    <img src="/icons/hourglass-expired-svgrepo-com.svg" class="listpic">
+                     <div class="textalign"><p>Campaigns</p></div>
+                   </div>
+                   <div class="container">
+                    <img src="/icons/menu-2-svgrepo-com.svg" class="listpic">
+                     <div class="textalign"><p>Payment</p></div>
+                   </div>
+                   
+                   
+               </div>
+           </div>
+           <div class="logout">
+               <div class="logOutOptions">
+                   <div class="containerLogout">
+                    <img src="/icons/settings-svgrepo-com (1).svg" class="listpic">
+                     <div class="textalign"><p>Settings</p></div>
+                   </div>
+                   <div class="containerLogout">
+                    <img src="/icons/logout-svgrepo-com (1).svg" class="listpic">
+                     <div class="textalign"><p>Logout</p></div>
+                   </div>
+                    
+               </div>
+           </div>
+        </div>
+        <div class="mainContent">
+             <div class="maincomponentwrapper">
+                <div class="wrappers">
+                    <div class="maincontainerone">
+                        <div class="title">Products</div>
+                        <div class="titleoptions">
+                            <div class="published moreoptions">
+                                <div class="logopublished">
+                                    <img src="/icons/about-empty-page-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="publishedname"><p>published</p></div>
+                            </div>
+                            <div class="published moreoptions">
+                                <div class="logopublished">
+                                    <img src="/icons/cast-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="publishedname"><p>Draft</p></div>
+                            </div>
+                            <div class="published moreoptions">
+                                <div class="logopublished">
+                                    <img src="/icons/padlock-outlined-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="publishedname"><p>Hidden</p></div>
+                            </div>
+                            <div class="published moreoptions">
+                                <div class="logopublished">
+                                    <img src="/icons/trash-1-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="publishedname"><p>Deleted</p></div>
+                            </div>
+                            <div class="published moreoptions">
+                                <div class="logopublished">
+                                    <img src="/icons/wrong-delete-remove-trash-minus-cancel-close-2-svgrepo-com.svg" alt="">
+                                </div>
+                                <div class="publishedname"><p>rejected</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="maincontainertwo">
+                        <div class="newitem">
+                            <div class="plus">
+                                <img src="/icons/plus-large-svgrepo-com.svg" alt="" srcset="">
+                            </div>
+                            <div class="div">
+                                <p>Add new item</p>
+                            </div>
+                            
+                        </div>
+                        <div class="sort">
+                            <div class="plus">
+                                <img src="/icons/bell-alt-svgrepo-com.svg" alt="" srcset="">
+                            </div>
+                            <div class="div">
+                                <p>Sort by size</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tablewrapper">
+                    <div class="tablescroll">
+                    <table border="2">
+                        <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th class="nameproduct">Product name</th>
+                            <th>Pricing</th>
+                            <th>Sell unit</th>
+                            <th>return</th>
+                            <th>rating</th>
+                            <th>stock</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                        <tbody>
+                        <tr>
+                            <td>[]</td>
+                            <td class="imagestyle">
+                                <div><img class="tableimage" src="/shoepics/casual.png" alt=""></div>
+                                <div class="texttable">Nike AIRFORCE design</div>
+                            </td>
+                            <td>$112</td>
+                            <td>4.5k</td>
+                            <td>108</td>
+                            <td>4.9/5</td>
+                            <td>1232</td>
+                            <td>:</td>
+                        </tr>
+                        <tr>
+                            <td>[]</td>
+                            <td class="imagestyle">
+                                <div><img class="tableimage" src="/shoepics/one.jpg" alt=""></div>
+                                <div>Nike AIRFORCE design</div>
+                            </td>
+                            <td>$112</td>
+                            <td>4.5k</td>
+                            <td>108</td>
+                            <td>4.9/5</td>
+                            <td>1232</td>
+                            <td>:</td>
+                        </tr>
+                        <tr>
+                            <td>[]</td>
+                            <td class="imagestyle">
+                                <div><img class="tableimage" src="/shoepics/two.png" alt=""></div>
+                                <div>Nike AIRFORCE design</div>
+                            </td>
+                            <td>$112</td>
+                            <td>4.5k</td>
+                            <td>108</td>
+                            <td>4.9/5</td>
+                            <td>1232</td>
+                            <td>:</td>
+                        </tr>
+                        <tr>
+                            <td>[]</td>
+                            <td class="imagestyle">
+                                <div><img class="tableimage" src="/shoepics/three.png" alt=""></div>
+                                <div>Nike AIRFORCE design</div>
+                            </td>
+                            <td>$112</td>
+                            <td>4.5k</td>
+                            <td>108</td>
+                            <td>4.9/5</td>
+                            <td>1232</td>
+                            <td>:</td>
+                        </tr>
+                        <tr>
+                            <td>[]</td>
+                            <td class="imagestyle">
+                                <div><img class="tableimage" src="/shoepics/four.png" alt=""></div>
+                                <div>Nike AIRFORCE design</div>
+                            </td>
+                            <td>$112</td>
+                            <td>4.5k</td>
+                            <td>108</td>
+                            <td>4.9/5</td>
+                            <td>1232</td>
+                            <td>:</td>
+                        </tr>
+                        <tr>
+                            <td>[]</td>
+                            <td class="imagestyle">
+                                <div><img class="tableimage" src="/shoepics/five.jpg" alt=""></div>
+                                <div>Nike AIRFORCE design</div>
+                            </td>
+                            <td>$112</td>
+                            <td>4.5k</td>
+                            <td>108</td>
+                            <td>4.9/5</td>
+                            <td>1232</td>
+                            <td>:</td>
+                        </tr>
+                        <tr>
+                            <td>[]</td>
+                            <td class="imagestyle">
+                                <div><img class="tableimage" src="/shoepics/six.jpg" alt=""></div>
+                                <div>Nike AIRFORCE design</div>
+                            </td>
+                            <td>$112</td>
+                            <td>4.5k</td>
+                            <td>108</td>
+                            <td>4.9/5</td>
+                            <td>1232</td>
+                            <td>:</td>
+                        </tr>
+                        <tr>
+                            <td>[]</td>
+                            <td class="imagestyle">
+                                <div><img class="tableimage" src="/shoepics/eight.png" alt=""></div>
+                                <div>Nike AIRFORCE design</div>
+                            </td>
+                            <td>$112</td>
+                            <td>4.5k</td>
+                            <td>108</td>
+                            <td>4.9/5</td>
+                            <td>1232</td>
+                            <td>:</td>
+                        </tr>
+                        <tr>
+                            <td>[]</td>
+                            <td class="imagestyle">
+                                <div><img class="tableimage" src="/shoepics/eight.png" alt=""></div>
+                                <div>Nike AIRFORCE design</div>
+                            </td>
+                            <td>$112</td>
+                            <td>4.5k</td>
+                            <td>108</td>
+                            <td>4.9/5</td>
+                            <td>1232</td>
+                            <td>:</td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+                </div>
+                
+
+             </div>
+        </div>
+    </div>
+</body>
+</html>
